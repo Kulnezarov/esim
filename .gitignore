@@ -1,15 +1,36 @@
+# Android
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea
 .DS_Store
 /build
 /captures
 .externalNativeBuild
-.cxx
-local.properties
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IntelliJ
+.idea/
+*.iws
+*.ipr
+
+# Generated files
+*.apk
+*.ap_
+
+# Keystore files
+*.jks
+*.keystore
